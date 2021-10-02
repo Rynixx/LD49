@@ -96,7 +96,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 6770863564140910872}
-  speed: 12
+  speed: 300
   gravity: -9.18
   jumpHeight: 3
   groundCheck: {fileID: 2114835566}
@@ -201,7 +201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerBody: {fileID: 6770863564140910873}
-  speed: 100
+  speed: 300
 --- !u!1001 &6770863564801415364
 PrefabInstance:
   m_ObjectHideFlags: 0
