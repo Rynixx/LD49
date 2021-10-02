@@ -654,6 +654,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10075d13f5c90db41b106c1eef0b6c0e, type: 3}
+--- !u!1001 &1930837367688641949
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1930837368617053317, guid: e0df0708f4cf14c4390253cbc935d9a5, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1930837368617053317, guid: e0df0708f4cf14c4390253cbc935d9a5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -18.511408
+      objectReference: {fileID: 0}
+    - target: {fileID: 1930837368617053317, guid: e0df0708f4cf14c4390253cbc935d9a5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -11.014754
+      objectReference: {fileID: 0}
+    - target: {fileID: 1930837368617053317, guid: e0df0708f4cf14c4390253cbc935d9a5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.8801019
+      objectReference: {fileID: 0}
+    - target: {fileID: 1930837368617053317, guid: e0df0708f4cf14c4390253cbc935d9a5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1930837368617053317, guid: e0df0708f4cf14c4390253cbc935d9a5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1930837368617053317, guid: e0df0708f4cf14c4390253cbc935d9a5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1930837368617053317, guid: e0df0708f4cf14c4390253cbc935d9a5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1930837368617053317, guid: e0df0708f4cf14c4390253cbc935d9a5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1930837368617053317, guid: e0df0708f4cf14c4390253cbc935d9a5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1930837368617053317, guid: e0df0708f4cf14c4390253cbc935d9a5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1930837368617053323, guid: e0df0708f4cf14c4390253cbc935d9a5, type: 3}
+      propertyPath: m_Name
+      value: Interactabledoor
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e0df0708f4cf14c4390253cbc935d9a5, type: 3}
 --- !u!1001 &2344159779078294882
 PrefabInstance:
   m_ObjectHideFlags: 0
