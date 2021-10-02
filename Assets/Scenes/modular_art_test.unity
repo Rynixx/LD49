@@ -231,6 +231,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -615309114576341211, guid: bc394cfa27acf6649a3a182ba78826ff, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1d0edb6f5af7b9e459b9024dd038f4e4, type: 2}
     - target: {fileID: 919132149155446097, guid: bc394cfa27acf6649a3a182ba78826ff, type: 3}
       propertyPath: m_Name
       value: greybox_floor_interior_01 (12)
@@ -345,6 +349,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -615309114576341211, guid: bc394cfa27acf6649a3a182ba78826ff, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1d0edb6f5af7b9e459b9024dd038f4e4, type: 2}
     - target: {fileID: 919132149155446097, guid: bc394cfa27acf6649a3a182ba78826ff, type: 3}
       propertyPath: m_Name
       value: greybox_floor_interior_01 (8)
@@ -459,6 +467,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -615309114576341211, guid: bc394cfa27acf6649a3a182ba78826ff, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1d0edb6f5af7b9e459b9024dd038f4e4, type: 2}
     - target: {fileID: 919132149155446097, guid: bc394cfa27acf6649a3a182ba78826ff, type: 3}
       propertyPath: m_Name
       value: greybox_floor_interior_01 (10)
@@ -630,6 +642,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2629589546813886484, guid: 44109fbf75a3a1d4297a1ebb34aade4a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b1765bb90a70fa44cb2ce1417350e4ce, type: 2}
     - target: {fileID: 919132149155446097, guid: 44109fbf75a3a1d4297a1ebb34aade4a, type: 3}
       propertyPath: m_Name
       value: greybox_wall_interior_corner_03
@@ -744,6 +760,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -615309114576341211, guid: bc394cfa27acf6649a3a182ba78826ff, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1d0edb6f5af7b9e459b9024dd038f4e4, type: 2}
     - target: {fileID: 919132149155446097, guid: bc394cfa27acf6649a3a182ba78826ff, type: 3}
       propertyPath: m_Name
       value: greybox_floor_interior_01 (9)
@@ -858,6 +878,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -615309114576341211, guid: bc394cfa27acf6649a3a182ba78826ff, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1d0edb6f5af7b9e459b9024dd038f4e4, type: 2}
     - target: {fileID: 919132149155446097, guid: bc394cfa27acf6649a3a182ba78826ff, type: 3}
       propertyPath: m_Name
       value: greybox_floor_interior_01 (11)
@@ -915,6 +939,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -615309114576341211, guid: bc394cfa27acf6649a3a182ba78826ff, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1d0edb6f5af7b9e459b9024dd038f4e4, type: 2}
     - target: {fileID: 919132149155446097, guid: bc394cfa27acf6649a3a182ba78826ff, type: 3}
       propertyPath: m_Name
       value: greybox_floor_interior_01 (7)
@@ -1061,6 +1089,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -615309114576341211, guid: bc394cfa27acf6649a3a182ba78826ff, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1d0edb6f5af7b9e459b9024dd038f4e4, type: 2}
     - target: {fileID: 919132149155446097, guid: bc394cfa27acf6649a3a182ba78826ff, type: 3}
       propertyPath: m_Name
       value: greybox_floor_interior_01 (15)
@@ -1175,6 +1207,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -615309114576341211, guid: bc394cfa27acf6649a3a182ba78826ff, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1d0edb6f5af7b9e459b9024dd038f4e4, type: 2}
     - target: {fileID: 919132149155446097, guid: bc394cfa27acf6649a3a182ba78826ff, type: 3}
       propertyPath: m_Name
       value: greybox_floor_interior_01 (13)
@@ -1293,6 +1329,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: greybox_floor_interior_triangle_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8272860981690554005, guid: cc058d750a569bf438549ff196c6f97c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1d0edb6f5af7b9e459b9024dd038f4e4, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cc058d750a569bf438549ff196c6f97c, type: 3}
 --- !u!1001 &898785208
@@ -1350,6 +1390,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: greybox_wall_interior_corner_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2929640277652407947, guid: 409eb83c1e5bf8a46ac620470bad7b26, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b1765bb90a70fa44cb2ce1417350e4ce, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 409eb83c1e5bf8a46ac620470bad7b26, type: 3}
 --- !u!1001 &915373562
@@ -1460,6 +1504,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -615309114576341211, guid: bc394cfa27acf6649a3a182ba78826ff, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1d0edb6f5af7b9e459b9024dd038f4e4, type: 2}
     - target: {fileID: 919132149155446097, guid: bc394cfa27acf6649a3a182ba78826ff, type: 3}
       propertyPath: m_Name
       value: greybox_floor_interior_01 (1)
@@ -1574,6 +1622,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -615309114576341211, guid: bc394cfa27acf6649a3a182ba78826ff, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1d0edb6f5af7b9e459b9024dd038f4e4, type: 2}
     - target: {fileID: 919132149155446097, guid: bc394cfa27acf6649a3a182ba78826ff, type: 3}
       propertyPath: m_Name
       value: greybox_floor_interior_01 (3)
@@ -1631,6 +1683,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -615309114576341211, guid: bc394cfa27acf6649a3a182ba78826ff, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1d0edb6f5af7b9e459b9024dd038f4e4, type: 2}
     - target: {fileID: 919132149155446097, guid: bc394cfa27acf6649a3a182ba78826ff, type: 3}
       propertyPath: m_Name
       value: greybox_floor_interior_01 (6)
@@ -1688,6 +1744,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -615309114576341211, guid: bc394cfa27acf6649a3a182ba78826ff, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1d0edb6f5af7b9e459b9024dd038f4e4, type: 2}
     - target: {fileID: 919132149155446097, guid: bc394cfa27acf6649a3a182ba78826ff, type: 3}
       propertyPath: m_Name
       value: greybox_floor_interior_01 (17)
@@ -1802,6 +1862,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -615309114576341211, guid: bc394cfa27acf6649a3a182ba78826ff, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1d0edb6f5af7b9e459b9024dd038f4e4, type: 2}
     - target: {fileID: 919132149155446097, guid: bc394cfa27acf6649a3a182ba78826ff, type: 3}
       propertyPath: m_Name
       value: greybox_floor_interior_01 (5)
@@ -1952,6 +2016,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -615309114576341211, guid: bc394cfa27acf6649a3a182ba78826ff, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1d0edb6f5af7b9e459b9024dd038f4e4, type: 2}
     - target: {fileID: 919132149155446097, guid: bc394cfa27acf6649a3a182ba78826ff, type: 3}
       propertyPath: m_Name
       value: greybox_floor_interior_01 (4)
@@ -2273,6 +2341,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6067185528594298527, guid: 57a6e6e8a888b9d438e8f8e9470f1b63, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b1765bb90a70fa44cb2ce1417350e4ce, type: 2}
     - target: {fileID: 919132149155446097, guid: 57a6e6e8a888b9d438e8f8e9470f1b63, type: 3}
       propertyPath: m_Name
       value: greybox_wall_interior_01 (3)
@@ -2330,6 +2402,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -615309114576341211, guid: bc394cfa27acf6649a3a182ba78826ff, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1d0edb6f5af7b9e459b9024dd038f4e4, type: 2}
     - target: {fileID: 919132149155446097, guid: bc394cfa27acf6649a3a182ba78826ff, type: 3}
       propertyPath: m_Name
       value: greybox_floor_interior_01 (14)
@@ -2387,6 +2463,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -615309114576341211, guid: bc394cfa27acf6649a3a182ba78826ff, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1d0edb6f5af7b9e459b9024dd038f4e4, type: 2}
     - target: {fileID: 919132149155446097, guid: bc394cfa27acf6649a3a182ba78826ff, type: 3}
       propertyPath: m_Name
       value: greybox_floor_interior_01
@@ -2444,6 +2524,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -615309114576341211, guid: bc394cfa27acf6649a3a182ba78826ff, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1d0edb6f5af7b9e459b9024dd038f4e4, type: 2}
     - target: {fileID: 919132149155446097, guid: bc394cfa27acf6649a3a182ba78826ff, type: 3}
       propertyPath: m_Name
       value: greybox_floor_interior_01 (2)
@@ -2615,6 +2699,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -615309114576341211, guid: bc394cfa27acf6649a3a182ba78826ff, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1d0edb6f5af7b9e459b9024dd038f4e4, type: 2}
     - target: {fileID: 919132149155446097, guid: bc394cfa27acf6649a3a182ba78826ff, type: 3}
       propertyPath: m_Name
       value: greybox_floor_interior_01 (16)
@@ -2676,6 +2764,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: greybox_floor_interior_triangle_01
       objectReference: {fileID: 0}
+    - target: {fileID: 8272860981690554005, guid: cc058d750a569bf438549ff196c6f97c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1d0edb6f5af7b9e459b9024dd038f4e4, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cc058d750a569bf438549ff196c6f97c, type: 3}
 --- !u!1001 &1979551505
