@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -123,6 +123,102 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &8336201
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8336203}
+  - component: {fileID: 8336202}
+  m_Layer: 0
+  m_Name: Example Sound Trigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &8336202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8336201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e7d1e5d5f896d1469f00b7b9fe8a72f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundTriggerEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1757560022}
+        m_TargetAssemblyTypeName: EventSoundScript, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  soundStopEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1757560022}
+        m_TargetAssemblyTypeName: EventSoundScript, Assembly-CSharp
+        m_MethodName: StopSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 130695710}
+        m_TargetAssemblyTypeName: EventSoundScript, Assembly-CSharp
+        m_MethodName: StopSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!4 &8336203
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8336201}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -73.24127, y: 3.8385544, z: -11.84169}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &130695710 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7096486390840011713, guid: ca5e87a174eb7984d95e2c81cb42a7ab, type: 3}
+  m_PrefabInstance: {fileID: 7096486390726388191}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049b6e1a107080d4b8ecde673d051eb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &319782869
 GameObject:
   m_ObjectHideFlags: 0
@@ -299,3 +395,128 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &1757560022 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3281092001032471533, guid: ac10b0f13962ad443a40928401849656, type: 3}
+  m_PrefabInstance: {fileID: 3281091999274942267}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 049b6e1a107080d4b8ecde673d051eb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &3281091999274942267
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3281092001032471523, guid: ac10b0f13962ad443a40928401849656, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3281092001032471523, guid: ac10b0f13962ad443a40928401849656, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -73.24127
+      objectReference: {fileID: 0}
+    - target: {fileID: 3281092001032471523, guid: ac10b0f13962ad443a40928401849656, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.8385544
+      objectReference: {fileID: 0}
+    - target: {fileID: 3281092001032471523, guid: ac10b0f13962ad443a40928401849656, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -11.84169
+      objectReference: {fileID: 0}
+    - target: {fileID: 3281092001032471523, guid: ac10b0f13962ad443a40928401849656, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3281092001032471523, guid: ac10b0f13962ad443a40928401849656, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3281092001032471523, guid: ac10b0f13962ad443a40928401849656, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3281092001032471523, guid: ac10b0f13962ad443a40928401849656, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3281092001032471523, guid: ac10b0f13962ad443a40928401849656, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3281092001032471523, guid: ac10b0f13962ad443a40928401849656, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3281092001032471523, guid: ac10b0f13962ad443a40928401849656, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3281092001032471534, guid: ac10b0f13962ad443a40928401849656, type: 3}
+      propertyPath: m_Name
+      value: Event Sound
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ac10b0f13962ad443a40928401849656, type: 3}
+--- !u!1001 &7096486390726388191
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7096486390840011714, guid: ca5e87a174eb7984d95e2c81cb42a7ab, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7096486390840011714, guid: ca5e87a174eb7984d95e2c81cb42a7ab, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7096486390840011714, guid: ca5e87a174eb7984d95e2c81cb42a7ab, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7096486390840011714, guid: ca5e87a174eb7984d95e2c81cb42a7ab, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7096486390840011714, guid: ca5e87a174eb7984d95e2c81cb42a7ab, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7096486390840011714, guid: ca5e87a174eb7984d95e2c81cb42a7ab, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7096486390840011714, guid: ca5e87a174eb7984d95e2c81cb42a7ab, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7096486390840011714, guid: ca5e87a174eb7984d95e2c81cb42a7ab, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7096486390840011714, guid: ca5e87a174eb7984d95e2c81cb42a7ab, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7096486390840011714, guid: ca5e87a174eb7984d95e2c81cb42a7ab, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7096486390840011714, guid: ca5e87a174eb7984d95e2c81cb42a7ab, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7096486390840011716, guid: ca5e87a174eb7984d95e2c81cb42a7ab, type: 3}
+      propertyPath: m_Name
+      value: Atmo Area
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ca5e87a174eb7984d95e2c81cb42a7ab, type: 3}
