@@ -10,7 +10,7 @@ public class ReduceSanity : MonoBehaviour
     public GameObject Prop;
     private void Update()
     {
-        InsanityValueImp = Insanity.InsanityValue;
+        //InsanityValueImp = Insanity.InsanityValue;
     }
     // This is called when pressed in the inventory
     public  void Use()

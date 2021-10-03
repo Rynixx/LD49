@@ -5,7 +5,7 @@ using UnityEngine.Events;
 public class Insanity : MonoBehaviour
 {
     // Start is called before the first frame update
-    public static int InsanityValue = 0;
+    public int InsanityValue = 0;
 
     public bool Level1 = false;
     public bool Level2 = false;
@@ -37,7 +37,7 @@ public class Insanity : MonoBehaviour
     }
     private void Update()
     {
-        Teleport();
+        
         if (InsanityValue == 100)
         {
             Level1 = true;
@@ -57,12 +57,5 @@ public class Insanity : MonoBehaviour
             insanityhandler3.Invoke();
         }
     }
-    public void Teleport()
-    {
-        Vector3 pos = transform.position;
-        pos.y = Random.Range(.3f, 1.0f);
-        transform.position = pos;
-    }
-
     //public void stage1()
 }
