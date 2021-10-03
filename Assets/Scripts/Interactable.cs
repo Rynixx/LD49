@@ -24,6 +24,7 @@ public class Interactable : MonoBehaviour
             }
         }
     }
+
     private void OnTriggerEnter(Collider collison)
     {
         if (collison.gameObject.CompareTag("Player"))
