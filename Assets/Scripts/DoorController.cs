@@ -7,14 +7,17 @@ public class DoorController : MonoBehaviour
     // Start is called before the first frame update
     public bool isOpen;
     public Animator animator;
-
-   public void OpenDoor()
+    void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
+    public void OpenDoor()
     {
         if(!isOpen)
         { 
             isOpen = true;
             Debug.Log("Door Opens");
-            animator.SetBool("IsOpen",isOpen);
+            animator.Play("Base Layer.DoorOpen");
         }
     }
 }

@@ -20,6 +20,7 @@ public class Interactable : MonoBehaviour
         {
             if (Input.GetKeyDown(interactKey))
             {
+                Debug.Log("Player Used");
                 interactAction.Invoke();
             }
         }
@@ -31,6 +32,14 @@ public class Interactable : MonoBehaviour
         {
             isInRange = true;
             Debug.Log("Player is in range");
+        }
+    }
+    private void OnTriggerExit(Collider collison)
+    {
+        if (collison.gameObject.CompareTag("Player"))
+        {
+            isInRange = false;
+            Debug.Log("Player is now out of range");
         }
     }
 }
