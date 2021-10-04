@@ -4,22 +4,29 @@ using UnityEngine;
 
 public class Flashlight : MonoBehaviour
 {
-    public float minTime = 0.02f;
-    public float maxTime = 1.0f;
-    private float Timer;
-    private Light i;
+    Light testlight;
 
+    public float minWaitTime;
+    public float maxWaitTime;
 
     // Start is called before the first frame update
     void Start()
     {
-       // i = GetComponent<Light>;
-        Timer = Random.Range(minTime, maxTime);
+        // i = GetComponent<Light>;
+        testlight = GetComponent<Light>();
+        
+    }
+    public void flicker()
+    {
+        StartCoroutine(Flashing());
     }
 
-    // Update is called once per frame
-    void Update()
+IEnumerator Flashing()
     {
-       // Timer -= ();
+        while (true)
+        {
+            yield return new WaitForSeconds(Random.Range(minWaitTime,maxWaitTime));
+            testlight.enabled = !testlight.enabled;
+        }
     }
 }
