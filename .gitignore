@@ -58,3 +58,7 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+ProjectSettings/Packages/com.unity.probuilder/Settings.json
+UserSettings/EditorUserSettings.asset
+Assets/Audio/Room Cleared.mp3.meta
+Assets/Audio/Titel Sound Track.mp3.meta
