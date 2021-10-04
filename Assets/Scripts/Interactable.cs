@@ -33,7 +33,6 @@ public class Interactable : MonoBehaviour
         {
             isInRange = true;
             Debug.Log("Player is in range");
-            animator.Play("DoorOpen");
         }
     }
     private void OnTriggerExit(Collider collison)
@@ -42,6 +41,7 @@ public class Interactable : MonoBehaviour
         {
             isInRange = false;
             Debug.Log("Player is now out of range");
+            animator.Play("DoorClose");
         }
     }
 }
