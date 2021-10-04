@@ -135,6 +135,118 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1183838537, guid: 812c2e4badbb3114c971e2f918f7adc7, type: 3}
+      propertyPath: Level2
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1183838537, guid: 812c2e4badbb3114c971e2f918f7adc7, type: 3}
+      propertyPath: insanityhandler1.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1183838537, guid: 812c2e4badbb3114c971e2f918f7adc7, type: 3}
+      propertyPath: insanityhandler2.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1183838537, guid: 812c2e4badbb3114c971e2f918f7adc7, type: 3}
+      propertyPath: insanityhandler1.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1183838537, guid: 812c2e4badbb3114c971e2f918f7adc7, type: 3}
+      propertyPath: insanityhandler2.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1183838537, guid: 812c2e4badbb3114c971e2f918f7adc7, type: 3}
+      propertyPath: insanityhandler2.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1183838537, guid: 812c2e4badbb3114c971e2f918f7adc7, type: 3}
+      propertyPath: insanityhandler2.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1183838537, guid: 812c2e4badbb3114c971e2f918f7adc7, type: 3}
+      propertyPath: insanityhandler1.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2069829051}
+    - target: {fileID: 1183838537, guid: 812c2e4badbb3114c971e2f918f7adc7, type: 3}
+      propertyPath: insanityhandler2.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1932777560}
+    - target: {fileID: 1183838537, guid: 812c2e4badbb3114c971e2f918f7adc7, type: 3}
+      propertyPath: insanityhandler2.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1932777560}
+    - target: {fileID: 1183838537, guid: 812c2e4badbb3114c971e2f918f7adc7, type: 3}
+      propertyPath: insanityhandler2.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 8300000, guid: c53bd0c61ab8abb498415a9053ec2cf6, type: 3}
+    - target: {fileID: 1183838537, guid: 812c2e4badbb3114c971e2f918f7adc7, type: 3}
+      propertyPath: insanityhandler1.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1183838537, guid: 812c2e4badbb3114c971e2f918f7adc7, type: 3}
+      propertyPath: insanityhandler2.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1183838537, guid: 812c2e4badbb3114c971e2f918f7adc7, type: 3}
+      propertyPath: insanityhandler2.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1183838537, guid: 812c2e4badbb3114c971e2f918f7adc7, type: 3}
+      propertyPath: insanityhandler2.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1183838537, guid: 812c2e4badbb3114c971e2f918f7adc7, type: 3}
+      propertyPath: insanityhandler1.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: StopAllCoroutines
+      objectReference: {fileID: 0}
+    - target: {fileID: 1183838537, guid: 812c2e4badbb3114c971e2f918f7adc7, type: 3}
+      propertyPath: insanityhandler2.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Camerashake
+      objectReference: {fileID: 0}
+    - target: {fileID: 1183838537, guid: 812c2e4badbb3114c971e2f918f7adc7, type: 3}
+      propertyPath: insanityhandler2.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Camerashake
+      objectReference: {fileID: 0}
+    - target: {fileID: 1183838537, guid: 812c2e4badbb3114c971e2f918f7adc7, type: 3}
+      propertyPath: insanityhandler2.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1183838537, guid: 812c2e4badbb3114c971e2f918f7adc7, type: 3}
+      propertyPath: insanityhandler1.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UnityEngine.MonoBehaviour, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1183838537, guid: 812c2e4badbb3114c971e2f918f7adc7, type: 3}
+      propertyPath: insanityhandler2.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Shakeeffect, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1183838537, guid: 812c2e4badbb3114c971e2f918f7adc7, type: 3}
+      propertyPath: insanityhandler2.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Shakeeffect, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1183838537, guid: 812c2e4badbb3114c971e2f918f7adc7, type: 3}
+      propertyPath: insanityhandler2.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: Shakeeffect, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1183838537, guid: 812c2e4badbb3114c971e2f918f7adc7, type: 3}
+      propertyPath: insanityhandler2.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1183838537, guid: 812c2e4badbb3114c971e2f918f7adc7, type: 3}
+      propertyPath: insanityhandler1.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1183838537, guid: 812c2e4badbb3114c971e2f918f7adc7, type: 3}
+      propertyPath: insanityhandler2.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1183838537, guid: 812c2e4badbb3114c971e2f918f7adc7, type: 3}
+      propertyPath: insanityhandler2.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1183838537, guid: 812c2e4badbb3114c971e2f918f7adc7, type: 3}
+      propertyPath: insanityhandler2.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2548259814953946016, guid: 812c2e4badbb3114c971e2f918f7adc7, type: 3}
       propertyPath: groundDistance
       value: 0.1
@@ -1707,6 +1819,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1231219761280336338, guid: e52d5ace47553d04895ebc0c651fae11, type: 3}
   m_PrefabInstance: {fileID: 1251900199}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1932777560 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1183838536, guid: 812c2e4badbb3114c971e2f918f7adc7, type: 3}
+  m_PrefabInstance: {fileID: 10465736}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a688b154462024408897186c53b7fd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1932777563 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6770863564140910873, guid: 812c2e4badbb3114c971e2f918f7adc7, type: 3}
@@ -1924,6 +2047,29 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &2069829045 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6770863564167449716, guid: 812c2e4badbb3114c971e2f918f7adc7, type: 3}
+  m_PrefabInstance: {fileID: 10465736}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2069829051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2069829045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61273236bfc7a714fbd71335628b5c48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  displacementMap: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+  Shader: {fileID: 4800000, guid: d38896de5c1ca134a8bc9a39ee821092, type: 3}
+  intensity: 0.105
+  flipIntensity: 0.282
+  colorIntensity: 0.14
+  ison: 0
 --- !u!1001 &2100266971
 PrefabInstance:
   m_ObjectHideFlags: 0
