@@ -45,7 +45,7 @@ public class Insanity : MonoBehaviour
             Level3 = false;
             insanityhandler1.Invoke();
         }
-        if (InsanityValue == 250)
+        if (InsanityValue == 200)
         {
             Level2 = true;
             Level3 = false;
@@ -55,6 +55,7 @@ public class Insanity : MonoBehaviour
         {
             Level3 = true;
             insanityhandler3.Invoke();
+            
         }
     }
     //public void stage1()
