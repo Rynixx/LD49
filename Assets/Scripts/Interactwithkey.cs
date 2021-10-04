@@ -23,7 +23,6 @@ public class Interactwithkey : MonoBehaviour
             if (Input.GetKeyDown(interactKey))
             {
                 Debug.Log("Player Used");
-                animator.Play("DoorOpen");
             }
         }
     }
@@ -34,6 +33,7 @@ public class Interactwithkey : MonoBehaviour
         {
             isInRange = true;
             Debug.Log("Key is in range");
+            interactAction.Invoke();
         }
     }
     private void OnTriggerExit(Collider collison)

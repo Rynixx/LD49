@@ -22,7 +22,7 @@ public class Interactable : MonoBehaviour
             if (Input.GetKeyDown(interactKey))
             {
                 Debug.Log("Player Used");
-                animator.Play("DoorOpen");
+                interactAction.Invoke();
             }
         }
     }
@@ -41,7 +41,6 @@ public class Interactable : MonoBehaviour
         {
             isInRange = false;
             Debug.Log("Player is now out of range");
-            animator.Play("DoorClose");
         }
     }
 }

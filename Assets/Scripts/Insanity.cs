@@ -51,7 +51,7 @@ public class Insanity : MonoBehaviour
             Level3 = false;
             insanityhandler2.Invoke();
         }
-        if (InsanityValue == 500)
+        if (InsanityValue == 300)
         {
             Level3 = true;
             insanityhandler3.Invoke();
