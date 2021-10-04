@@ -7,10 +7,11 @@ public class Interactable : MonoBehaviour
     public bool isInRange;
     public KeyCode interactKey;
     public UnityEvent interactAction;
+    public Animator animator;
     // Start is called before the first frame update
     void Start()
     {
-        
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -20,16 +21,27 @@ public class Interactable : MonoBehaviour
         {
             if (Input.GetKeyDown(interactKey))
             {
-                interactAction.Invoke();
+                Debug.Log("Player Used");
+                animator.Play("DoorOpen");
             }
         }
     }
+
     private void OnTriggerEnter(Collider collison)
     {
         if (collison.gameObject.CompareTag("Player"))
         {
             isInRange = true;
             Debug.Log("Player is in range");
+            animator.Play("DoorOpen");
+        }
+    }
+    private void OnTriggerExit(Collider collison)
+    {
+        if (collison.gameObject.CompareTag("Player"))
+        {
+            isInRange = false;
+            Debug.Log("Player is now out of range");
         }
     }
 }
