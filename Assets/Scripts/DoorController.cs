@@ -17,7 +17,7 @@ public class DoorController : MonoBehaviour
         { 
             isOpen = true;
             Debug.Log("Door Opens");
-            animator.Play("Base Layer.DoorOpen");
+            animator.SetBool("isOpen", isOpen);
         }
     }
 }
